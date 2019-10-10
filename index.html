@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <title>Tic Tac Toe</title>
+  </head>
+  <body>
+    <main>
+      <div id="message"></div>
+      <table>
+        <tr>
+          <td class='square' id='0' onclick="pickSquare(this)"></td>
+          <td class='square' id='1' onclick="pickSquare(this)"></td>
+          <td class='square' id='2' onclick="pickSquare(this)"></td>
+        </tr>
+        <tr>
+          <td class='square' id='3' onclick="pickSquare(this)"></td>
+          <td class='square' id='4' onclick="pickSquare(this)"></td>
+          <td class='square' id='5' onclick="pickSquare(this)"></td>
+        </tr>
+        <tr>
+          <td class='square' id='6' onclick="pickSquare(this)"></td>
+          <td class='square' id='7' onclick="pickSquare(this)"></td>
+          <td class='square' id='8' onclick="pickSquare(this)"></td>
+        </tr>
+      </table>
+      <button onclick="startGame()">Replay</button>
+      <script src="main.js"></script>
+    </main>
+  </body>
+</html>

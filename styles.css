@@ -1,0 +1,17 @@
+table {
+  border-collapse: collapse;
+}
+table,button {
+  cursor: pointer;
+}
+
+td {
+  border: 1px solid black;
+}
+
+.square {
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  font-size: 50px;
+}
